@@ -11,7 +11,7 @@ export default function CountriesMap() {
         height: 90vh;
         width: 80vw;
         margin: 5vh auto;
-        background-image: url("/main-page-background.webp");
+        background-image: url("./main-page-background.webp");
         background-size: auto;
         background-position: center center;
         max-height: 100vh; /* Ensure at least full viewport height coverage */
