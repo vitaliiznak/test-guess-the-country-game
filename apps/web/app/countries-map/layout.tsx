@@ -1,9 +1,9 @@
 "use client";
 
-import "./globals.css";
+import "../globals.css";
 
 
-export default function RootLayout({
+export default function CountriesGameLayout({
   children,
 }: {
   children: React.ReactNode;
