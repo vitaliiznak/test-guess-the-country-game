@@ -51,6 +51,9 @@ jobs:
         run: pnpm install
 
       - name: Build
+        env:
+          # If you have any other environment variables, they can be set here as well
+          NODE_ENV: production
         run: pnpm build
 
       - name: Setup Pages
@@ -76,6 +79,9 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
+        env:
+          # If you have any other environment variables, they can be set here as well
+          NODE_ENV: production
         run: ${{ steps.detect-package-manager.outputs.runner }} pnpm build
       - name: LS1
         run: ls -la ./apps
