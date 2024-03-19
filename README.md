@@ -2,6 +2,10 @@
 
 Travel the Globe, visit the countries, One Guess at a Time!
 
+
+<image src="./screenshots/gameplay.png"/>
+
+
 ### Build
 
 To build all apps and packages, run the following command:
